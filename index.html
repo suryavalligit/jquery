@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JQuery</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div>
+            <h1>JQuery</h1>
+        </div>
+        <div>
+            <h2>Manipulating Content</h2>
+            <p>html() , text() , before , prepend , append , after() , insertBefore() , prependTO() , appendTO() ,
+                insertAfter() , wrap() , wrapAll() , empty() , remove() , replaceWith().</p>
+        </div>
+        <div>
+            <h3>html()</h3>
+            <p id="task1">
+                <span>Lorem Ipsum 1</span>
+                <br>
+                <span>Lorem Ipsum 2</span>
+                <br>
+                <span>Lorem Ipsum 3</span>
+            </p>
+            <div class="btn-align">
+                <button id="myFunction1">Replace the HTML</button>
+            </div>
+            <br>
+            <h3>before()</h3>
+            <p id="task2">
+                <span>Lorem Ipsum</span>
+            </p>
+            <div class="btn-align">
+                <button id="myFunction2">Add Tag Before</button>
+                <button id="myFunction3">Prepend Tag</button>
+                <button id="myFunction4">Append Tag</button>
+                <button id="myFunction5">Add Tag After</button>
+            </div>
+            <br>
+            <h3>empty()</h3>
+            <p id="task3">Lorem Ipsum</p>
+            <div class="btn-align">
+                <button id="myFunction6">Empty the content</button>
+            </div>
+            <br>
+            <h3>wrap()</h3>
+            <span class="wrap-span">Lorem Ipsum</span>
+            <div class="btn-align">
+                <button id="myFunction7">Wrap the span Tag.</button>
+            </div>
+        </div>
+        <div>
+            <h2>Manipulating Content Task 1</h2>
+            <span>Year DropDownList</span>
+            <select id="yearDropDownList">
+
+            </select>
+            <div class="btn-align">
+                <button id="myFunction8">Append Full Year.</button>
+            </div>
+        </div>
+        <div>
+            <h2>Event Handling in JQuery</h2>
+            <p>click(), dblclick(), mouseover(), mouseout(), hover(), mousemove(), focus(), blur(), keyup(), keypress(),
+                change(), on(), off().</p>
+        </div>
+        <div>
+            <h3>click() & Doubleclick()</h3>
+            <div class="btn-align">
+                <button id="myFunction9">Button Click</button>
+                <button id="myFunction10">Double Click Button</button>
+            </div>
+        </div>
+        <div>
+            <h3>Mouseover, Mouseout & Hover</h3>
+            <div class="btn-align">
+                <button id="myFunction11">Mouseover Button</button>
+                <button id="myFunction12">Mouseout Button</button>
+                <button id="myFunction13">Hover Button</button>
+            </div>
+        </div>
+        <div>
+            <h3>Focus & Blur</h3>
+            Email: <input type="text" id="txt1">
+            <span id="span1">Use Gmail only</span>
+        </div>
+
+
+    </main>
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
