@@ -62,18 +62,28 @@ $("#myFunction12").mouseout(function () {
     window.alert('Button Mouse Out Happened!!!...');
 });
 
-$("#myFunction13").hover(
-    function () {
-        window.alert('Button Hover Happened!!!...');
-    },
-    function () {
-        window.alert('Button Hover Out Happened!!!...');
-    }
-);
+// $("#myFunction13").hover(
+//     function () {
+//         window.alert('Button Hover Happened!!!...');
+//     },
+//     function () {
+//         window.alert('Button Hover Out Happened!!!...');
+//     }
+// );
 
 $("#txt1").focus(function () {
     $("#span1").show();
 });
 $("#txt1").blur(function () {
     $("#span1").hide();
+});
+
+$("#txt2").keyup(function () {
+    var rp2 = $("#txt2").val();
+    $('#rptxt2').html(rp2);
+});
+
+$("#txt3").keypress(function () {
+    var rp3 = $("#txt3").val();
+    $('#rptxt3').html(rp3);
 });
